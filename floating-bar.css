@@ -1,12 +1,14 @@
 /* Floating pill footer bar — app-style persistent actions (Glenn 9/3)
    Same pattern as his reference: centered pill, icon buttons, dividers. Styles the SlamDunk dark theme. */
 :root{
-  --fb-bg: rgba(13,18,38,.86);
-  --fb-border: rgba(255,255,255,.12);
-  --fb-icon: #e9ecf7;
-  --fb-muted: #7b83a8;
-  --fb-shadow:0 8px 24px rgba(0,0,0,.5), 0 2px 6px rgba(0,0,0,.3);
+  --fb-bg: rgba(255,255,255,.93);
+  --fb-border: rgba(43,108,240,.28);
+  --fb-icon: #0b0f1e;
+  --fb-muted: #5c6389;
+  --fb-shadow:0 8px 24px rgba(11,15,30,.25), 0 2px 6px rgba(11,15,30,.15);
 }
+/* White theme (Glenn 9/13): page-footer legal line stays readable on white */
+.legal-footer { color: #5c6389; }
 .footer-bar{
   position:fixed;
   left:20px;

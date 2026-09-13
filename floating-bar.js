@@ -1,5 +1,16 @@
 /* Floating pill footer bar — shared behavior (Glenn 9/3)
    Active-state toggle, home-aware highlight, Share via Web Share API with clipboard fallback. */
+/* Flag tagline (Glenn 9/13) — Red / White / Blue motto under the headline on every page. */
+(function () {
+  if (document.querySelector('.flag-tagline')) return;
+  var h = document.querySelector('.headline') || document.querySelector('.page-heading');
+  if (!h) return;
+  var t = document.createElement('p');
+  t.className = 'flag-tagline';
+  t.innerHTML = 'Your Property in <span class="ft-red">Radiant Red</span><span class="ft-sep">&middot;</span>Expertly <span class="ft-white">White</span><span class="ft-sep">&middot;</span>Managed in <span class="ft-blue">Gradient Blue</span>';
+  h.parentNode.insertBefore(t, h.nextSibling);
+})();
+
 /* Legal licensing footer (Glenn 9/13) — division line + license numbers on every page. */
 (function () {
   var legal = document.createElement('div');
