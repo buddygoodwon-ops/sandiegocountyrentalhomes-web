@@ -97,7 +97,7 @@
   letter-spacing:.02em;
   line-height:1.6;
 }
-.legal-footer .lf-strong{ font-weight:600; color:#e9ecf7; }
+.legal-footer .lf-strong{ font-weight:600; color:#0b0f1e; }
 @media (max-width: 480px){
   .footer-bar{ left:12px; right:84px; bottom:18px; padding:8px 22px 8px 10px; gap:4px; overflow:hidden; }
   .footer-btn{ width:40px; height:40px; flex-shrink:0; }
