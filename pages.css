@@ -128,3 +128,7 @@ a.brand-sub:hover { color: #ffffff; text-decoration-color: var(--blue); }
 .flag-tagline .ft-red { color: #ff2a47; font-weight: 700; }
 .flag-tagline .ft-white { background: #ffffff; color: #0b0f1e; font-weight: 700; padding: 1px 8px; border-radius: 7px; }
 .flag-tagline .ft-blue { background: linear-gradient(90deg, #2b6cf0, #6ba6ff); -webkit-background-clip: text; background-clip: text; color: transparent; font-weight: 700; }
+
+/* Brand title fit override - rental names are longer than SLAMDUNK */
+.brand-title { font-size: 20.4px; }
+.brand-title .suffix { font-size: 13.5px; }
